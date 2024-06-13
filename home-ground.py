@@ -1,6 +1,8 @@
 # print("hiss....")
 
 # print
+# Strings, numbers, characters, logical values, objects - any of these may be successfully passed to print().
+# Value returned - None. Its effect is enough.
 # Scenario
 # The print() command, which is one of the easiest directives in Python, simply prints out a line to the screen.
 
@@ -29,3 +31,23 @@ print("Trigger")
 # scenario 5 - success
 # Accepts both single and double quotes
 print('Trigger')
+
+# senario 6 - success
+# empty print - empty line
+print("The itsy bitsy spider climbed up the waterspout.")
+print()
+print("Down came the rain and washed the spider out.")
+
+# senario 7 - success
+# escaper character - \
+# \n - new line character
+print("The itsy bitsy spider \nclimbed up the waterspout.")
+print()
+print("Down came the rain \nand washed the spider out.")
+
+# senario 8 - error
+# escaper character - \
+# SyntaxError: unterminated string literal (detected at line 52)
+# To avoid this error use "\\""
+# print("\")
+print("\\")
