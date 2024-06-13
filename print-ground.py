@@ -72,3 +72,23 @@ print("Monty python", end=" \n")
 # a keyword argument "sep" can be used to define the seperator
 print("The", "itsy", "bitsy", "spider" , sep="*", end=" ")
 print("Monty python", end="!!!")
+
+# scenario 12 - success
+# print - multiple keyword arguments
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+print("Monty", "Python.", end="!!\n", sep="*\n")
+
+# Lab
+# problem - Minimize the print statements
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+
+# solution
+print("    *", "   * *", "  *   *", " *     *", "***   ***", "  *   *", "  *   *", "  *****", sep="\n")
