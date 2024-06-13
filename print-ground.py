@@ -149,10 +149,13 @@ print(2. ** 3.)
 # scenario 19
 # print - integer divisional operator (//)
 # result is rounded and is always an integer vs. float rule
+# rounding always goes to lesser integer
 print(6 // 3) # result is an integer
 print(6 // 3.) # result is a float
 print(6. // 3) # result is a float
 print(6. // 3.) # result is a float
+print(-6 // 4) # rounded to -2 but the actual answer is -1.5
+print(6. // -4) # rounded to -2 but the actual answer is -1.5
 
 # scenario 20
 # print - division operator (/)
@@ -160,4 +163,14 @@ print(6. // 3.) # result is a float
 print(6 / 3) 
 print(6 / 3.) 
 print(6. / 3) 
-print(6. / 3.) 
+print(6. / 3.)
+
+# scenario 21
+# print - operator and binding
+# Modulo operator has left sided binding
+print(9 % 6 % 2)
+
+# scenario 22
+# print - operator and binding
+# Modulo operator has left sided binding
+print(2 ** 2 ** 3)
