@@ -51,3 +51,24 @@ print("Down came the rain \nand washed the spider out.")
 # To avoid this error use "\\""
 # print("\")
 print("\\")
+
+# scenario 9 - success
+# print - multiple arguments
+# a print() function invoked with more than one argument outputs them all on one line.
+# the print() function puts a space between the outputted arguments on its own initiative.
+# Order of the arguments matter. First comes first printed
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+
+# scenario 10 - success
+# print - keyword arguments
+# a keyword argument consists of three elements: a keyword identifying the argument (end here); an equal sign (=); and a value assigned to that argument;
+# any keyword arguments have to be put after the last positional argument (this is very important)
+# The keyword argument "end" puts the content supplied at the end of whatever is printed. It does not add a space. This argument is implicit by default with the value end="\n"
+print("The itsy bitsy spider" , end="who knows")
+print("Monty python", end=" \n")
+
+# scenario 11 - success
+# print - keyword arguments
+# a keyword argument "sep" can be used to define the seperator
+print("The", "itsy", "bitsy", "spider" , sep="*", end=" ")
+print("Monty python", end="!!!")
