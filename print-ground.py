@@ -106,3 +106,21 @@ print(2)
 # The second convention allows us to use hexadecimal numbers. Such numbers should be preceded by the prefix 0x or 0X (zero-x).
 print(0o123)
 print(0x123)
+
+# scenario 15 - success
+# print - floating numbers
+# Python always chooses the more economical form of the number's presentation, and you should take this into consideration when creating literals.
+print(0.0000000000000000000001)
+
+# scenario 16 - success
+# print - string with quotes
+# The backslash can escape quotes 
+print("I like \"Monty Python\"")
+print("I'm Monty Python.")
+print("I\'m Monty Python.")
+print('I\'m Monty Python.')
+
+# scenario 17 - success
+# print - boolean values
+print(True > False)
+print(True < False)
