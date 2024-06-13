@@ -124,3 +124,24 @@ print('I\'m Monty Python.')
 # print - boolean values
 print(True > False)
 print(True < False)
+
+# lab
+# Expected output
+# "I'm"
+# ""learning""
+# """Python"""
+
+# solution
+print("\"I\'m\"")
+print("\"\"learning\"\"")
+print("\"\"\"python\"\"\"")
+
+
+# scenario 18
+# print - operators
+# when both ** arguments are integers, the result is an integer, too.
+# when at least one ** argument is a float, the result is a float, too.
+print(2 ** 3)
+print(2 ** 3.)
+print(2. ** 3)
+print(2. ** 3.)
