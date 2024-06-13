@@ -92,3 +92,17 @@ print("  *****")
 
 # solution
 print("    *", "   * *", "  *   *", " *     *", "***   ***", "  *   *", "  *   *", "  *****", sep="\n")
+
+# scenario 13 - success
+# print - literal
+# A literal is data whose values are determined by the literal itself. You use literals to encode data and to put them into your code
+print("2")
+print(2)
+
+
+# scenario 14 - success
+# print - octal and hexadecimal numbers
+# If an integer number is preceded by an 0O or 0o prefix (zero-o), it will be treated as an octal value. This means that the number must contain digits taken from the [0..7] range only.
+# The second convention allows us to use hexadecimal numbers. Such numbers should be preceded by the prefix 0x or 0X (zero-x).
+print(0o123)
+print(0x123)
