@@ -145,3 +145,19 @@ print(2 ** 3)
 print(2 ** 3.)
 print(2. ** 3)
 print(2. ** 3.)
+
+# scenario 19
+# print - integer divisional operator (//)
+# result is rounded and is always an integer vs. float rule
+print(6 // 3) # result is an integer
+print(6 // 3.) # result is a float
+print(6. // 3) # result is a float
+print(6. // 3.) # result is a float
+
+# scenario 20
+# print - division operator (/)
+# result is always a float
+print(6 / 3) 
+print(6 / 3.) 
+print(6. / 3) 
+print(6. / 3.) 
