@@ -54,3 +54,18 @@ leg_a = float(input("Input first leg length: "))
 leg_b = float(input("Input second leg length: "))
 hypo = (leg_a**2 + leg_b**2) ** .5
 print("Hypotenuse length is", hypo)
+
+# lab
+# Note: using + to concatenate strings lets you construct the output in a more precise way 
+# than with a pure print() function, even if enriched with the end= and sep= keyword arguments.
+fnam = input("May I have your first name, please? ")
+lnam = input("May I have your last name, please? ")
+print("Thank you.")
+print("\nYour name is " + fnam + " " + lnam + ".")
+
+# lab
+# replicator and concatenator - * and +
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
+
