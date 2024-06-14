@@ -69,3 +69,17 @@ print("+" + 10 * "-" + "+")
 print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
 
+# lab
+# problem - calculate end hour and mins given start hour, mins, duration. 
+# test data 1 - hour=12 mins=17 dura=59 expected output = 13:16
+# test data 2 - hour=23 mins=58 dura=642 expected output = 10:40
+# test data 3 - hour=0 mins=1 dura=2939 expected output = 1:0
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+dura_hour = dura // 60
+dura_mins = dura % 60
+end_mins = (mins + dura_mins) % 60
+end_hour = (((mins + dura_mins) // 60) + hour + dura_hour) % 24
+print(end_hour, end_mins, sep=":")
+
