@@ -83,3 +83,5 @@ end_mins = (mins + dura_mins) % 60
 end_hour = (((mins + dura_mins) // 60) + hour + dura_hour) % 24
 print(end_hour, end_mins, sep=":")
 
+print(2+3*5.)
+
