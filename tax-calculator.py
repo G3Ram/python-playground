@@ -7,4 +7,7 @@ else:
     surplus = (income - 85528) * 0.32
     tax = 14839.2 + surplus
 
-print("Tax is ", float(round(tax)), "thalers")
+if tax > 0:
+    print("Tax is ", float(round(tax)), "thalers")
+else:
+    print("Tax is 0.0 thalers")
