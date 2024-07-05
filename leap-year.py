@@ -1,7 +1,9 @@
 # Find leap year
 year = int(input("Enter year: "))
 
-if year % 4 != 0:
+if year < 1582:
+    print("Not within the Gregorian calendar period")
+elif year % 4 != 0:
     print("It's a common year")
 elif year % 100 != 0:
     print("It's a leap year")
