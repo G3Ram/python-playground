@@ -15,3 +15,9 @@ while number_of_blocks > 0:
             number_of_blocks -= 1
 
 print(len(height))
+
+# Test Data
+# 6 -> 3
+# 20 -> 5
+# 1000 -> 44
+# 2 -> 1
