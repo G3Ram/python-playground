@@ -10,3 +10,8 @@ while c0 != 1:
     print(c0)
 
 print("Steps = ", steps)
+
+# Test Data
+# 15 -> steps 17
+# 16 -> steps 4
+# 1023 -> steps 62
