@@ -7,3 +7,8 @@ for j in range(2, 8):
 
 for k in range(0, 10, 2):
     print("The value of k is currently", k)
+
+# Create a for loop that counts from 0 to 10, and prints odd numbers to the screen. Use the skeleton below:
+print("Odd numbers from 0 to 10")
+for i in range(1, 11, 2):
+    print(i)
