@@ -17,3 +17,9 @@ x = 1
 while x < 11:
     print(x)
     x += 2
+
+# ex 5
+for ch in "john.smith@pythoninstitute.org":
+    if ch == "@":
+        break
+    print(ch, end="")
