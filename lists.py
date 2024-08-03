@@ -13,3 +13,7 @@ print("New list content: ", numbers)  # Current list content.
 
 # Example 3 - Get the length of the list
 print("List length : ", len(numbers))
+
+# Example 4 - Removing numbers from a list
+del numbers[4]
+print("New list content after delete: ", numbers)  # Current list content.
