@@ -17,3 +17,8 @@ print("List length : ", len(numbers))
 # Example 4 - Removing numbers from a list
 del numbers[4]
 print("New list content after delete: ", numbers)  # Current list content.
+
+# Example 5 - Using negative indices
+print("Original list content:", numbers)
+print("Negative index -1 : ", numbers[-1])
+print("Negative index -2 : ", numbers[-2])
