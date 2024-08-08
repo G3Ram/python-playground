@@ -9,3 +9,6 @@ print("Step 1: Updated List : ", num_list)
 # Step 2: Remove the last item from the list
 del num_list[len(num_list) - 1]
 print("Step 2: Updated List : ", num_list)
+
+# step 3: Print the length of the existing list
+print("Step 3: List length : ", len(num_list))
