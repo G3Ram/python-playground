@@ -22,3 +22,7 @@ print("New list content after delete: ", numbers)  # Current list content.
 print("Original list content:", numbers)
 print("Negative index -1 : ", numbers[-1])
 print("Negative index -2 : ", numbers[-2])
+
+# Example 6 - append values
+numbers.append(4)
+print("New list content after append: ", numbers)
