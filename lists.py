@@ -26,3 +26,7 @@ print("Negative index -2 : ", numbers[-2])
 # Example 6 - append values
 numbers.append(4)
 print("New list content after append: ", numbers)
+
+# Example 7 - insert values
+numbers.insert(0, 444)
+print("New list content after append: ", numbers)
