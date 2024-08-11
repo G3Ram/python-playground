@@ -30,3 +30,10 @@ print("New list content after append: ", numbers)
 # Example 7 - insert values
 numbers.insert(0, 444)
 print("New list content after append: ", numbers)
+
+# Example 8 - input numbers from 1 to 6 in reverse order
+new_list = []
+for i in range(6):
+    new_list.insert(0, i + 1)
+
+print("New list with values is : ", new_list)
