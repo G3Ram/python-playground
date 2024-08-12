@@ -37,3 +37,12 @@ for i in range(6):
     new_list.insert(0, i + 1)
 
 print("New list with values is : ", new_list)
+
+# Example 9 - Accessing elements in a list
+my_list = [10, 1, 8, 3, 5]
+# Finding the total of the elements in the list
+total = 0
+for i in my_list:
+    total += i
+
+print("Total value of items in the list is ", total)
