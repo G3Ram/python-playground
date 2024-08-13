@@ -54,3 +54,12 @@ print("Sorted my list is ", my_list)
 # Example 11 - Reversed list
 my_list.reverse()
 print("Reversed my list is ", my_list)
+
+# Example 12 - Copying a list
+my_list_copy = my_list[:]
+my_list[0] = 1111
+print("My list is ", my_list)
+print("My list copy is ", my_list_copy)
+
+sub_list = my_list[1:4]
+print("Sub list is ", sub_list)
