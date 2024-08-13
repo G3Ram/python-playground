@@ -50,3 +50,7 @@ print("Total value of items in the list is ", total)
 # Example 10 - Sorting a list
 my_list.sort()
 print("Sorted my list is ", my_list)
+
+# Example 11 - Reversed list
+my_list.reverse()
+print("Reversed my list is ", my_list)
