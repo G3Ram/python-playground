@@ -11,7 +11,7 @@ print("Python version: " + var)
 # pythagorus theorem
 a = 3.0
 b = 4.0
-c = (a ** 2 + b ** 2) ** 0.5
+c = (a**2 + b**2) ** 0.5
 print(c)
 
 # lab
@@ -46,17 +46,17 @@ print("Hmm...", anything, "...Really?")
 # scenario 6 - success
 # input - input type is always string so should typecast to float or int before using it for numbers
 anything = float(input("Enter a number: "))
-something = anything ** 2.0
+something = anything**2.0
 print(anything, "to the power of 2 is", something)
 
 # lab
 leg_a = float(input("Input first leg length: "))
 leg_b = float(input("Input second leg length: "))
-hypo = (leg_a**2 + leg_b**2) ** .5
+hypo = (leg_a**2 + leg_b**2) ** 0.5
 print("Hypotenuse length is", hypo)
 
 # lab
-# Note: using + to concatenate strings lets you construct the output in a more precise way 
+# Note: using + to concatenate strings lets you construct the output in a more precise way
 # than with a pure print() function, even if enriched with the end= and sep= keyword arguments.
 fnam = input("May I have your first name, please? ")
 lnam = input("May I have your last name, please? ")
@@ -70,7 +70,7 @@ print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
 
 # lab
-# problem - calculate end hour and mins given start hour, mins, duration. 
+# problem - calculate end hour and mins given start hour, mins, duration.
 # test data 1 - hour=12 mins=17 dura=59 expected output = 13:16
 # test data 2 - hour=23 mins=58 dura=642 expected output = 10:40
 # test data 3 - hour=0 mins=1 dura=2939 expected output = 1:0
@@ -83,5 +83,15 @@ end_mins = (mins + dura_mins) % 60
 end_hour = (((mins + dura_mins) // 60) + hour + dura_hour) % 24
 print(end_hour, end_mins, sep=":")
 
-print(2+3*5.)
+print(2 + 3 * 5.0)
 
+# Easy swapping
+var1 = 25
+var2 = 50
+print("Before Swapping :")
+print("var1 is ", var1)
+print("var2 is ", var2)
+var1, var2 = var2, var1
+print("After Swapping :")
+print("var1 is ", var1)
+print("var2 is ", var2)
