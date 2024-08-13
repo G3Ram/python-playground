@@ -15,8 +15,11 @@ else:
 
 # is_leap_year using a function
 def is_leap_year(year):
+    if not int(year):
+        return None
+
     if year < 1582:
-        return False
+        return None
     elif year % 4 != 0:
         return False
     elif year % 100 != 0:
@@ -48,11 +51,15 @@ def days_in_month(year, month):
         return 30
     elif month in months_31:
         return 31
-    else:
+    elif month == 2:
         if is_leap_year(year):
             return 29
-        else:
+        elif not is_leap_year(year):
             return 28
+        else:
+            return None
+    else:
+        return None
 
 
 test_years = [1900, 2000, 2016, 1987]
