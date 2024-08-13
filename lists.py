@@ -46,3 +46,7 @@ for i in my_list:
     total += i
 
 print("Total value of items in the list is ", total)
+
+# Example 10 - Sorting a list
+my_list.sort()
+print("Sorted my list is ", my_list)
