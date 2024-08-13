@@ -38,3 +38,18 @@ for i in range(len(test_data)):
         print("OK")
     else:
         print("Failed")
+
+
+# Find the days in a month
+def days_in_month(year, month):
+    months_31 = [1, 3, 5, 7, 8, 10, 12]
+    months_30 = [4, 6, 9, 11]
+    if month in months_30:
+        return 30
+    elif month in months_31:
+        return 31
+    else:
+        if is_leap_year(year):
+            return 28
+        else:
+            return 29
