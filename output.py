@@ -15,3 +15,8 @@ for v in range(len(my_list)):
     my_list.insert(1, my_list[v])
     print(my_list)
 print(my_list)
+
+var = 1
+while var < 10:
+    print("#")
+    var = var << 1
