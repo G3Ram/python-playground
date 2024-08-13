@@ -17,5 +17,6 @@ for i in range(2):
 del beatles[4]
 del beatles[3]
 
-print(beatles)
 # step 5: use the insert() method to add Ringo Starr to the beginning of the list.
+beatles.insert(0, "Ringo Starr")
+print(beatles)
