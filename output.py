@@ -8,3 +8,10 @@ del list_1[0]
 del list_2
 
 print(list_3)
+
+my_list = [1, 2, 3]
+for v in range(len(my_list)):
+    print(my_list[v])
+    my_list.insert(1, my_list[v])
+    print(my_list)
+print(my_list)
