@@ -20,3 +20,23 @@ var = 1
 while var < 10:
     print("#")
     var = var << 1
+
+
+lst = [[x for x in range(3)] for i in range(3)]
+
+for r in range(3):
+    for c in range(3):
+        if lst[r][c] % 2 != 0:
+            print("#")
+
+lst = [i for i in range(-1, -2)]
+print(lst)
+
+x = int(input())
+y = int(input())
+x = x % y
+print(x, y)
+x = x % y
+print(x, y)
+y = y % x
+print(y)
