@@ -49,3 +49,9 @@ b = a ^ b
 print(a, b)
 a = a ^ b
 print(a, b)
+
+my_lst = [1, 2]
+for v in range(2):
+    my_lst.insert(-1, my_lst[v])
+
+print(my_lst)
