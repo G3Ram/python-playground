@@ -1,4 +1,4 @@
-# What is the output of the following snippet?
+# # What is the output of the following snippet?
 
 list_1 = ["A", "B", "C"]
 list_2 = list_1
@@ -55,3 +55,11 @@ for v in range(2):
     my_lst.insert(-1, my_lst[v])
 
 print(my_lst)
+
+x = 1
+y = 2
+x, y, z = x, x, y
+print(x, y, z)
+z, y, z = x, y, z
+
+print(x, y, z)
