@@ -40,3 +40,12 @@ x = x % y
 print(x, y)
 y = y % x
 print(y)
+
+a = 1
+b = 0
+a = a ^ b
+print(a, b)
+b = a ^ b
+print(a, b)
+a = a ^ b
+print(a, b)
