@@ -34,3 +34,11 @@ x = 1  # This refers to -> 1 : 1 * 2 ** 0 = 1
 x = x << 2  # This refers to -> 100: 1 * 2 ** 2 + 0 * 2 ** 1 + 0 * 2 ** 0
 
 print(x)
+
+
+# Read the question carefully
+n = 4
+
+while n > 0:
+    print("#")
+    n //= 2  # This is an integer division
