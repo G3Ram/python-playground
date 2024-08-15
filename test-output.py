@@ -54,3 +54,13 @@ s = "python"
 s[0] = "P"
 
 print(s)
+
+# Note: 0 % n is always 0
+lst1 = [0, 3, 4, 6, 30]
+lst2 = []
+
+for n in range(len(lst1)):
+    if lst1[n] % 2 == 0 and lst1[n] % 3 == 0:
+        lst2.append(lst1[n])
+
+print(lst2)  # [0, 6, 30] : Make sure not to miss 0
