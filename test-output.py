@@ -110,3 +110,9 @@ print(l)  # [4, 3, 1, 5, 1]
 
 # Note: Integer division floors the value
 x = -5 // 4  # -1 will be rounded to -2
+
+d = {"x": 1, "y": 2, "xy": 3, "Xy": 4}
+
+d["xY"] = 5
+
+print(d)  # {'x': 1,'y': 2, 'xy': 3, 'Xy': 4, 'xY': 5}
