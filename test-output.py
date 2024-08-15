@@ -99,3 +99,11 @@ print(list(range(-3)))
 
 # Following code throws a syntax error.
 # print(03 + 4 * 2)
+
+l = [4, 3, 1, 5, 2, 1]
+
+# Finds the first index when 1 occurs
+x = l.index(1)  # x = 2
+l.remove(x)  # l.remove(x) means removing the value 2 from the list
+
+print(l)  # [4, 3, 1, 5, 1]
