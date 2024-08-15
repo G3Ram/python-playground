@@ -74,3 +74,11 @@ for i in str:
 else:
     print("Python")
 # This will break and only print 'M'
+
+# Note: single back slash in a string is only to have the line broken for display.
+# The string as it is is still unbroken
+incipit = "It was \
+a dark and \
+stormy night"
+
+print(incipit)
