@@ -93,3 +93,9 @@ for i in test_results.items():
 for ch in "Python":
     pass
 print(ch)
+
+# Note: prints []
+print(list(range(-3)))
+
+# Following code throws a syntax error.
+# print(03 + 4 * 2)
