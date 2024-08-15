@@ -15,3 +15,14 @@ y = str(3)
 z = float(0)
 
 print(x, y, z)
+
+
+# Try to solve the example step by step
+# This example returns a tuple
+def rectangle(b, h):
+    perimeter = (b + h) * 2
+    area = b * h
+    return b, h, area, perimeter  # This returns a tuple
+
+
+print(rectangle(10, 3)[2])  # The third element in the tuple should be printed
