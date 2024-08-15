@@ -82,3 +82,9 @@ a dark and \
 stormy night"
 
 print(incipit)
+
+# Note: When a dictionary is iterated using .items, the result is a tuple
+test_results = {"Python": 77, "C++": 69, "Java": 81}
+
+for i in test_results.items():
+    print(i)  # This prints out a tuple with key value pair
