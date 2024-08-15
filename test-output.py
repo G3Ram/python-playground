@@ -127,3 +127,5 @@ for ch in "Python":
     pass
 
 print(ch)
+
+print(list(range(-3)))  # []
