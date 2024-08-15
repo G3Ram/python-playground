@@ -116,3 +116,8 @@ d = {"x": 1, "y": 2, "xy": 3, "Xy": 4}
 d["xY"] = 5
 
 print(d)  # {'x': 1,'y': 2, 'xy': 3, 'Xy': 4, 'xY': 5}
+
+# Note: Following gives an attribute error
+tpl = (1, 2, 3, 4)
+
+tpl.append(5)
