@@ -107,3 +107,6 @@ x = l.index(1)  # x = 2
 l.remove(x)  # l.remove(x) means removing the value 2 from the list
 
 print(l)  # [4, 3, 1, 5, 1]
+
+# Note: Integer division floors the value
+x = -5 // 4  # -1 will be rounded to -2
