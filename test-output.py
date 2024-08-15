@@ -135,3 +135,10 @@ y = "def"  # This is a string
 z = (x, y)  # (('abc',), 'def')
 
 print(z)
+
+# sort() is in place sorting while sorted sorts in a new list
+lst = ["g", "E", "D", "a", "c"]
+
+sorted(lst)
+
+print(lst)
