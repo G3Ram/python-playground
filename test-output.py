@@ -42,3 +42,7 @@ n = 4
 while n > 0:
     print("#")
     n //= 2  # This is an integer division
+
+# ValueError exception if step is 0
+for i in range(0, 5, 0):
+    print(i)
