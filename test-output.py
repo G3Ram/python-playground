@@ -44,5 +44,6 @@ while n > 0:
     n //= 2  # This is an integer division
 
 # ValueError exception if step is 0
+# Note: step should be a non-zero number
 for i in range(0, 5, 0):
     print(i)
