@@ -64,3 +64,13 @@ for n in range(len(lst1)):
         lst2.append(lst1[n])
 
 print(lst2)  # [0, 6, 30] : Make sure not to miss 0
+
+# Note: After a break in for or while loop the else part will not get implemented
+str = "Monty"
+
+for i in str:
+    print(i)
+    break
+else:
+    print("Python")
+# This will break and only print 'M'
