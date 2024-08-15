@@ -151,3 +151,8 @@ print(d[1])
 
 print(d.get(3))  # This will not throw an error and return None
 print(d[3])  # This will throw a KeyError
+
+x = 10
+y = 2
+print(y + x)
+# Even though the line ends with ; this does not throw an error!! As there are multiple statements in one line.
