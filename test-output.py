@@ -88,3 +88,8 @@ test_results = {"Python": 77, "C++": 69, "Java": 81}
 
 for i in test_results.items():
     print(i)  # This prints out a tuple with key value pair
+
+# Note: ch will take the value of 'n'
+for ch in "Python":
+    pass
+print(ch)
