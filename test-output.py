@@ -121,3 +121,9 @@ print(d)  # {'x': 1,'y': 2, 'xy': 3, 'Xy': 4, 'xY': 5}
 tpl = (1, 2, 3, 4)
 
 tpl.append(5)
+
+# ch will be available even after the for loop is done
+for ch in "Python":
+    pass
+
+print(ch)
