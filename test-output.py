@@ -129,3 +129,9 @@ for ch in "Python":
 print(ch)
 
 print(list(range(-3)))  # []
+
+x = ("abc",)  # This is a tuple
+y = "def"  # This is a string
+z = (x, y)  # (('abc',), 'def')
+
+print(z)
