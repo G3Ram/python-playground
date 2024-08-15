@@ -1,65 +1,40 @@
-# # What is the output of the following snippet?
+x = 2
+y = 1
+x *= y + 1
+print(x)
 
-list_1 = ["A", "B", "C"]
-list_2 = list_1
-list_3 = list_2
-
-del list_1[0]
-del list_2
-
-print(list_3)
-
-my_list = [1, 2, 3]
-for v in range(len(my_list)):
-    print(my_list[v])
-    my_list.insert(1, my_list[v])
-    print(my_list)
-print(my_list)
-
-var = 1
-while var < 10:
-    print("#")
-    var = var << 1
+num = 1
 
 
-lst = [[x for x in range(3)] for i in range(3)]
+def func():
+    num = num + 3
+    print(num)
 
-for r in range(3):
-    for c in range(3):
-        if lst[r][c] % 2 != 0:
-            print("#")
 
-lst = [i for i in range(-1, -2)]
-print(lst)
+func()
+print(num)
 
-x = int(input())
-y = int(input())
-x = x % y
-print(x, y)
-x = x % y
-print(x, y)
-y = y % x
-print(y)
+d1 = {1: "one", 2: "two", 3: "three"}  # line 1
+# line 2
+d2 = d1  # line 3
+del d1  # line 4
+# line 5
+print(d2)
 
-a = 1
-b = 0
-a = a ^ b
-print(a, b)
-b = a ^ b
-print(a, b)
-a = a ^ b
-print(a, b)
+d1 = [1, 2, 3]
+d2 = d1
+del d1[:]
+print(d2)
 
-my_lst = [1, 2]
-for v in range(2):
-    my_lst.insert(-1, my_lst[v])
+d = [1, 2, 3, 4, 5]
+del d[:]
+print(d)
+del d
+print(d) - NameError
 
-print(my_lst)
 
-x = 1
-y = 2
-x, y, z = x, x, y
-print(x, y, z)
-z, y, z = x, y, z
+def fun(a=2, b=3):
+    return a * b
 
-print(x, y, z)
+
+print(fun())
