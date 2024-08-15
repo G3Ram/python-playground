@@ -142,3 +142,12 @@ lst = ["g", "E", "D", "a", "c"]
 sorted(lst)
 
 print(lst)
+
+
+d = {1: "one", 2: "two"}
+
+print(d.get(1))
+print(d[1])
+
+print(d.get(3))  # This will not throw an error and return None
+print(d[3])  # This will throw a KeyError
