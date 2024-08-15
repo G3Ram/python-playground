@@ -47,3 +47,10 @@ while n > 0:
 # Note: step should be a non-zero number
 for i in range(0, 5, 0):
     print(i)
+
+# Note: Strings in Python are immutable
+s = "python"
+
+s[0] = "P"
+
+print(s)
