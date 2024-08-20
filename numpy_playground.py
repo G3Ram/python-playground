@@ -10,3 +10,10 @@ d_arr = np.arange(0, 10, 3, dtype=float)
 print(b_arr)
 print(c_arr)
 print(d_arr)
+
+# linspace for equal spacing
+e_arr = np.linspace(0, 20, 3)
+print(e_arr)
+
+e1_arr = np.linspace(0, 20, 4, dtype=int)
+print(e1_arr)
