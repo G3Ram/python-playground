@@ -17,3 +17,7 @@ print(e_arr)
 
 e1_arr = np.linspace(0, 20, 4, dtype=int)
 print(e1_arr)
+
+char_arr = np.array(["hello world!"])
+print(char_arr)
+print(char_arr.dtype)
