@@ -21,3 +21,9 @@ print(e1_arr)
 char_arr = np.array(["hello world!"])
 print(char_arr)
 print(char_arr.dtype)
+
+ones_arr = np.ones(20)
+print(ones_arr)
+
+ones_int_arr = np.ones(20, dtype=int)
+print(ones_int_arr)
