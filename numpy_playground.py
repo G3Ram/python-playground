@@ -27,3 +27,9 @@ print(ones_arr)
 
 ones_int_arr = np.ones(20, dtype=int)
 print(ones_int_arr)
+
+zeros_arr = np.zeros(20)
+print(zeros_arr)
+
+zeros_int_arr = np.zeros(20, dtype=int)
+print(zeros_int_arr)
