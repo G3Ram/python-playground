@@ -33,3 +33,9 @@ print(zeros_arr)
 
 zeros_int_arr = np.zeros(20, dtype=int)
 print(zeros_int_arr)
+
+empty_arr = np.empty(20)
+print("Empty Array initialization -> ", empty_arr)
+
+empty_int_arr = np.empty(20, dtype=int)
+print("Empty int Array initialization -> ", empty_int_arr)
