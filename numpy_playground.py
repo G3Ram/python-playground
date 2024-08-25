@@ -39,3 +39,7 @@ print("Empty Array initialization -> ", empty_arr)
 
 empty_int_arr = np.empty(20, dtype=int)
 print("Empty int Array initialization -> ", empty_int_arr)
+
+# Note: cannot pass dtype for rand
+rand_arr = np.random.rand(3)
+print("Random array ->", rand_arr)
