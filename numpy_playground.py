@@ -43,3 +43,7 @@ print("Empty int Array initialization -> ", empty_int_arr)
 # Note: cannot pass dtype for rand
 rand_arr = np.random.rand(3)
 print("Random array ->", rand_arr)
+
+# Two dimensional arrays
+two_dim_arr = np.array([[1, 2, 3], [2, 3, 4]])
+print(two_dim_arr)
